@@ -1,0 +1,55 @@
+input[type=number] {
+  width: 80px;
+}
+td {
+  background:radial-gradient(rgb(0, 100, 0), rgb(14, 24, 14));
+  border-radius: 10px;
+  border-style: outset;
+}
+td.cash {
+  padding-left: 6px;
+  background: none;
+  border-radius: none;
+  border-style: none;
+}
+tr, td.regular {
+  padding: 10px;
+}
+td.drawn {
+  width: 41%;
+}
+td.balance {
+  width: 26%;
+}
+td.cashout {
+  width: 20%;
+}
+td.bet {
+  width: 120px;
+}
+td.betinput {
+  border-style:none;
+  background-color:rgb(0,50,0);
+  width: 1px;
+}
+table {
+  text-align: center;
+  text-shadow: 1px 1px rgb(0,0,0);
+}
+img {
+  padding-right: 1px;
+}
+html {
+  height:100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+  background:linear-gradient(rgb(0,50,0), rgb(0,0,0));
+  text-align:center;
+  color:rgb(255,255,255);
+}
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+}

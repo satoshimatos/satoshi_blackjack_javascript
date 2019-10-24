@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Sato's Blackjack</title>
+  </head>
+  <body>
+    <img src="plaque.png" alt="Plaque" style="width:50%;">
+    <div class="tables">
+      <table class="center">
+        <tr>
+          <td class="balance">Balance: <div id="balance"></div></td>
+          <td class="cashout">Cashout: <div id="cashout"></div></td>
+          <td class="regular">Hand:    <div id="hand">none</div></td>
+          <td class="drawn">Card drawn: <div id="current">none</div></td>
+        </tr>
+      </table>
+    </div>
+    <div class="buttons">
+      <table class="center">
+        <tr>
+          <td class="bet">Bet amount:</td>
+          <td class="cash">$</td>
+          <td class="betinput"><input size="500" step="50.00" type ="number" id="bet" value=100></td>
+        </tr>
+      </table>
+      <button type="button" id="draw">Draw</button>
+      <button type="button" id="restart" style="visibility:hidden;">Restart</button>
+      <button type="button" id="cashoutButton" style="visibility:hidden;">Cashout</button>
+    </div>
+    <script src="blackjack.js"></script>
+  </body>
+</html>
